@@ -13,7 +13,17 @@ const secpass = () => {
     }
     
     if(min < 10){
-        
+        min = "0" + min;
     }
-}
-console.log(secpass())
+
+    //vai gerar o formato de 02:59
+    countDiv.innerHTML = min + ":" + segundosRestantes;
+
+    if(sec > 0){
+        sec = sec -1;
+    }else{
+        countDiv.innerHTML = "acabou";
+    }
+};
+
+const countDown = setInterval(() => secpass(), 1000);
