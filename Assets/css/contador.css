@@ -40,3 +40,16 @@ article #time{
    
    box-shadow: 3px 3px 5px rgb(107, 112, 114);
 }
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(32, 103, 196);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+    color: #fff;
+    cursor: pointer;
+
+    font-weight: bolder;
+}

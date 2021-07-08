@@ -1,4 +1,7 @@
-window.addEventListener("load", () => {
+const botao = document.getElementById("btn");
+
+
+botao.addEventListener("click", () => {
 // tempo em segundos que queremos
 let sec = 180;
 
