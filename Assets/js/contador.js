@@ -1,3 +1,4 @@
+window.addEventListener("load", () => {
 // tempo em segundos que queremos
 let sec = 180;
 
@@ -27,3 +28,4 @@ const secpass = () => {
 };
 
 const countDown = setInterval(() => secpass(), 1000);
+});
