@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     width: 100%;
@@ -25,4 +25,17 @@ article {
 article h3{
     padding: 10px;
     color: #fff;
+}
+
+article .count{
+    padding: 5px;
+}
+article #time{
+   padding: 5px;
+   color: crimson;
+   background-color: aliceblue;
+   
+   border-radius: 3px;
+   
+   box-shadow: 3px 3px 5px rgb(107, 112, 114);
 }
