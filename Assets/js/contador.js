@@ -2,8 +2,9 @@ const botao = document.getElementById("btn");
 
 
 botao.addEventListener("click", () => {
+    const segundos = document.getElementById("segundos").value;
 // tempo em segundos que queremos
-let sec = 180;
+let sec = segundos;
 
 //capturando os valores do html
 const countDiv = document.getElementById("time");
