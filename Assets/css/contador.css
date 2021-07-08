@@ -7,6 +7,7 @@
 body{
     width: 100%;
     font: normal bold 16px/normal tahoma;
+    
 }
 article {
     width: 300px;
@@ -19,4 +20,9 @@ article {
     padding: 5px;
     overflow: hidden;
     box-shadow: 3px 3px 10px #ccc;
+}
+
+article h3{
+    padding: 10px;
+    color: #fff;
 }
